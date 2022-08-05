@@ -1,0 +1,18 @@
+# Data to be used for the model ex2
+
+set I := "1"	"2";
+set J := "a"	"b"		"c";
+
+param: p := 
+		"1"	0.25
+		"2"	0.45;
+
+param: c := 
+		"a" 1200
+		"b" 1920
+		"c" 1500;
+
+## Matrix product, material
+param a: 	"a"	"b"	"c" := 
+		"1" 4	12	7
+		"2" 8	8	6;
