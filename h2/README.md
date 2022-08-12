@@ -1,6 +1,6 @@
 ## Tarea 1
 
-Dado el siguiente problema de programaci´on lineal.
+Dado el siguiente problema de programación lineal.
 
 ![Problem statement](images/problem.png)
 
