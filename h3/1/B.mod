@@ -1,9 +1,9 @@
 reset;
 
-var x1 integer >= 0, <= 1;
-var x2 integer >= 0, <= 1;
-var x3 integer >= 0, <= 1;
-var x4 integer >= 0, <= 1;
+var x1  >= 0, <= 1;
+var x2  >= 0, <= 1;
+var x3  >= 0, <= 1;
+var x4  >= 0, <= 1;
 
 maximize z: 8*x1 + 11*x2 + 6*x3 + 4*x4;
 
