@@ -41,6 +41,8 @@ display d;
 
 display x;
 
-display demandas.slack;
+display demandas, demandas.slack;
 
 display costo;
+
+display {j in 1.._ncons} (_conname[j],_con[j].slack);
