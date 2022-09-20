@@ -1,6 +1,9 @@
+reset;
 # Reducción de costos de infraestructura
 
-option solver cplex; # Programación Entera
+option solver cplex ; # Programación Entera
+
+option cplex_options  'sensitivity';
 
 # Definiendo conjuntos
 set V; # Tipos de máquinas
@@ -28,9 +31,16 @@ subject to demandas {r in R}:
 
 data "project.dat";
 
+option presolve 0;
+
 solve;
 
 option omit_zero_rows 1;
-display costo, x;
 
+display d;
 
+display x;
+
+display demandas.slack;
+
+display costo;
