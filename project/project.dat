@@ -2,12 +2,12 @@ set V := "f1-micro"	"e2-micro"	"e2-small"	"g1-small"	"e2-medium"	"t2a-standard-1
 set R := "CPU"	"Memory"	"Disk"	"Network"	"GPU"	"IOPS";
 
 param: d :=
-        "CPU"       21.2
-        "Memory"    2
-        "Disk"      0
-        "Network"   10
+        "CPU"       60
+        "Memory"    400
+        "Disk"      2
+        "Network"   100
         "GPU"       0
-        "IOPS"      1000;
+        "IOPS"      6000;
 
 param: c := 
         "f1-micro"	0.0076
